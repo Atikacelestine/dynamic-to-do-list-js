@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
     //function to load tasks from the local storage and populate the task list
     function loadTasks(){
-        const storedTasks= localStorae.getItem('tasks');
+        const storedTasks= localStorage.getItem('tasks');
         if(storedTasks){
             tasks=JSON.parse(storedTasks);
             tasks.forEach(function(taskText);{
