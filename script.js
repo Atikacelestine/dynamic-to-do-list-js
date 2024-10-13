@@ -92,7 +92,7 @@ taskInput.value="";}
 }
 addButton.addEventListener('click',addTask);
 
-taskInptu.addEventListener('keypress'),function(event){
+taskInput.addEventListener('keypress'),function(event){
     if(event.key === 'Enter'){
         addTask();
     }
