@@ -26,7 +26,7 @@ li.textContent=taskText;
 //Create a new button element for removing the task
 const removeButton = document.createElement('button');
 removeButton.textContent="Remove";
-removeButton.className="remove-btn";
+removeButton.classList.add="remove-btn";
 
 //Assign an onclick event to the remove button
 removeButton.onclick=function(){
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded'),function()
 {
 
     //select the add task button
-    const addButton=document.getElementById('add-task-button');
+    const addButton=document.getElementById('add-task-btn');
 
     //select the task input field
     const taskInput= document.getElementById('task-input');
@@ -74,7 +74,7 @@ li.textContent=taskText;
 //Create a new button element for removing the task
 const removeButton = document.createElement('button');
 removeButton.textContent="Remove";
-removeButton.className="remove-btn";
+removeButton.classList.add="remove-btn";
 
 //Assign an onclick event to the remove button
 removeButton.onclick=function(){
