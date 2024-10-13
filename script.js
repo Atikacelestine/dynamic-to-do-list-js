@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function(){
     //select the add task button and store in a constant named addButton
-    const addButton= document.getElementById('add-task-button');
+    const addButton= document.getElementById('add-task-btn');
 
     //selectt the input field where users enter tasks
     const taskInput= document.getElementById('task-input');
